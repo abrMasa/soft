@@ -411,12 +411,23 @@ Security items to feed the NG security plan (the network used to be closed, so t
 
 ## Legacy notes
 
-Content of the previous README that is not covered by the sections above, kept as it was.
+The previous README of the repository (`README.md` of `masa/master at c80fbf8`), kept in full; its headings are two levels lower.
+
+[![License](https://img.shields.io/github/license/masagroup/soft.svg)](https://github.com/masagroup/soft/blob/master/LICENSE)
 
 ### What is SOFT ? #
-
+SOFT is the acronym of Sword Object Facilities.
+ 
 SOFT is an implementation of the Eclipse Modeling Framework (EMF) core, and the Ecore metamodel in C++ and Go.
 
 The current release allows to generate code from Ecore metamodels. A reflective API for generated metamodels is also provided.
 
 SOFT consits of 2 parts for each langage :  a generator from Ecore metamodels, and the ecore library. The generators are currently implemented using Acceleo and Java.
+
+### Generators #
+- [Soft Generators](https://github.com/masagroup/soft.gen)
+
+### Ecore Libraries #
+- [Soft Cpp](https://github.com/masagroup/soft.cpp)
+- [Soft TS](https://github.com/masagroup/soft.ts)
+- [Soft Go](https://github.com/masagroup/soft.go)
